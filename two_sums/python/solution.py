@@ -1,5 +1,9 @@
 class Solution:
     def twoSum(self, nums, target):
+        """
+            link to task:
+                https://leetcode.com/problems/two-sum/
+        """
         indexes = []
         for idx in range(0, len(nums)):
             if target - nums[idx] in nums and nums.index(target - nums[idx]) != idx:
