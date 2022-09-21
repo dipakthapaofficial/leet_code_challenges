@@ -1,5 +1,8 @@
 class Solution:
     def sumEvenAfterQueries(self, nums, queries):
+        """
+            https://leetcode.com/problems/sum-of-even-numbers-after-queries/
+        """
         result = []
         sum1 = sum(list(filter(lambda n: n % 2 == 0, nums )))
         i = 0
